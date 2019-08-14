@@ -13,6 +13,6 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 //paths
-define('URL', 'http://localhost/jreammvc/');
+define('URL', 'http://localhost/brewmaster/');
 
 define('LIBS', 'libs/');
