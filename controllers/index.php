@@ -9,12 +9,10 @@ class Index extends Controller {
 	function index() {
 		//echo Hash::create('sha256', 'jonathan', HASH_PASSWORD_KEY);
         $this->view->css = ['index/js/index.js'];
+        $this->view->title = 'Fermenting calendar';
 
-		$this->view->render('index/index');
+
+        $this->view->render('index/index');
 	}
-	
-	function details() {
-		$this->view->render('index/index');
-	}
-	
+
 }

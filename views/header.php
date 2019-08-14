@@ -16,7 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <head>
     <meta charset="utf-8"/>
     <title>
-        Metronic | External Events
+        Brew Master
     </title>
     <meta name="description" content="External events examples">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,8 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--begin::Page Vendors -->
     <link href="<?php echo URL; ?>public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.css" rel="stylesheet"
           type="text/css"/>
-    <link href="<?php echo URL; ?>public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" />
+    <link href="<?php echo URL; ?>public/assets/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet"/>
+    <link href="<?php echo URL; ?>public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet"/>
     <link href="<?php echo URL; ?>public/assets/vendors/custom/fullcalendar/scheduler.css" rel="stylesheet"
           type="text/css"/>
     <!--end::Page Vendors -->
@@ -89,6 +90,24 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <!-- BEGIN: Topbar Toggler -->
                         </div>
+                    </div>
+                </div>
+                <div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+                    <!-- BEGIN: Horizontal Menu -->
+                    <button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-dark "
+                            id="m_aside_header_menu_mobile_close_btn">
+                        <i class="la la-close"></i>
+                    </button>
+                    <div id="m_header_menu"
+                         class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-dark m-aside-header-menu-mobile--submenu-skin-dark ">
+                        <ul class="m-menu__nav">
+                            <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"
+                                m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true">
+                                <h3 class="m-subheader__title m-subheader__title--separator">
+                                    <?php echo isset($this->title) ? $this->title: ''; ?>
+                                </h3>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <!-- END: Brand -->
@@ -229,17 +248,36 @@ License: You must have a valid license purchased only from themeforest(the above
             >
                 <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
                     <li class="m-menu__item " aria-haspopup="true">
-                        <a href="../../index.html" class="m-menu__link ">
-                            <i class="m-menu__link-icon flaticon-line-graph"></i>
+                        <a href="<?php echo URL; ?>customers" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-users"></i>
                             <span class="m-menu__link-title">
 										<span class="m-menu__link-wrap">
 											<span class="m-menu__link-text">
-												Dashboard
+												Customers
 											</span>
-											<span class="m-menu__link-badge">
-												<span class="m-badge m-badge--danger">
-													2
-												</span>
+										</span>
+									</span>
+                        </a>
+                    </li>
+                    <li class="m-menu__item " aria-haspopup="true">
+                        <a href="<?php echo URL; ?>" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-calendar-2"></i>
+                            <span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Fermenting calendar
+											</span>
+										</span>
+									</span>
+                        </a>
+                    </li>
+                    <li class="m-menu__item " aria-haspopup="true">
+                        <a href="<?php echo URL; ?>warehouse" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-business"></i>
+                            <span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Warehouse
 											</span>
 										</span>
 									</span>

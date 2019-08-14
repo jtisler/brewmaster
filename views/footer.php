@@ -59,10 +59,13 @@
 <!--begin::Base Scripts -->
 <script src="<?php echo URL; ?>public/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="<?php echo URL; ?>public/assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+<script src="<?php echo URL; ?>public/assets/demo/default/base/menu.js" type="text/javascript"></script>
 <!--end::Base Scripts -->
 <!--begin::Page Vendors -->
 <script src="<?php echo URL; ?>public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.js"
         type="text/javascript"></script>
+<script src="<?php echo URL; ?>public/assets/vendors/custom/highcharts/code/highcharts.js"></script>
+<script src="<?php echo URL; ?>public/assets/vendors/custom/datatables/datatables.bundle.js"></script>
 <script src="<?php echo URL; ?>public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js"></script>
 <script src="<?php echo URL; ?>public/assets/vendors/custom/fullcalendar/scheduler.js"
         type="text/javascript"></script>

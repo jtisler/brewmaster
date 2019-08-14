@@ -47,25 +47,29 @@ var feedingProtocol = function () {
                     title: "IPA",
                     start: "2019-08-01",
                     end: "2019-08-20",
-                    color: '#5867dd'
+                    color: '#5867dd',
+                    textColor: 'white'
                 },{
                     resourceId: 2,
                     title: "IPA",
                     start: "2019-08-05",
                     end: "2019-08-12",
-                    color: '#5867dd'
+                    color: '#5867dd',
+                    textColor: 'white'
                 },{
                     resourceId: 2,
                     title: "Pale Ale",
                     start: "2019-08-14",
                     end: "2019-08-30",
-                    color: '#00c5dc'
+                    color: '#00c5dc',
+                    textColor: 'white'
                 },{
                     resourceId: 3,
                     title: "Pale Ale",
                     start: "2019-08-03",
                     end: "2019-09-03",
-                    color: '#00c5dc'
+                    color: '#00c5dc',
+                    textColor: 'white'
                 },
             ]
         });
