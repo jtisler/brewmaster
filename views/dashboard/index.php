@@ -30,7 +30,7 @@
         invoices
 												</span>
                         <span class="m-widget24__stats m--font-brand" data-holds="input">
-													12600 €
+													12.600 €
 												</span>
                         <div class="m--space-30"></div>
                     </div>
