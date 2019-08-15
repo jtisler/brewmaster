@@ -33,7 +33,7 @@
                             Open orders
                         </th>
                         <th>
-                            Confirmed orders
+                            Delivered orders
                         </th>
                         <th>
                             Open balance
