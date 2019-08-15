@@ -4,7 +4,7 @@ $(function () {
 
 var feedingProtocol = function () {
 
-    var cal;
+    var cal, cal2;
     var resource = 0;
 
     var handleCalendar = function () {
@@ -32,13 +32,13 @@ var feedingProtocol = function () {
             resources: [
                 {
                     id: 1,
-                    title: 'Fermenter 1'
+                    title: 'Fermenter 1 (500L)'
                 }, {
                     id: 2,
-                    title: 'Fermenter 2'
+                    title: 'Fermenter 2 (750L)'
                 }, {
                     id: 3,
-                    title: 'Fermenter 3'
+                    title: 'Fermenter 3 (1000L)'
                 }
             ],
             events: [
@@ -72,6 +72,101 @@ var feedingProtocol = function () {
                     textColor: 'white'
                 },
             ]
+        });
+
+        cal2 = $('#m_calendar_2').fullCalendar({
+            defaultView: 'timelineMonth',
+            header: {
+                left: 'prev,next',
+                center: 'title',
+                right: 'timelineMonth'
+            },
+            allDaySlot: false,
+            slotEventOverlap: false,
+            editable: true,
+            height: 'auto',
+            selectable: true,
+            firstDay: 1,
+            locale: 'hr',
+            resourceLabelText: 'Brewing systems',
+            eventOverlap: false,
+            slotLabelFormat: [
+                'dd',
+                "DD"
+            ],
+            resourceAreaWidth: '15%',
+            resources: [
+                {
+                    id: 1,
+                    title: 'Brewery 1 (500L)'
+                }, {
+                    id: 2,
+                    title: 'Brewery 2 (1000L)'
+                }
+            ],
+            events: [
+                {
+                    resourceId: 1,
+                    title: "IPA",
+                    start: "2019-08-01",
+                    end: "2019-08-20",
+                    color: '#5867dd',
+                    textColor: 'white'
+                },{
+                    resourceId: 2,
+                    title: "IPA",
+                    start: "2019-08-05",
+                    end: "2019-08-12",
+                    color: '#5867dd',
+                    textColor: 'white'
+                },{
+                    resourceId: 2,
+                    title: "Pale Ale",
+                    start: "2019-08-14",
+                    end: "2019-08-30",
+                    color: '#00c5dc',
+                    textColor: 'white'
+                }
+            ]
+        });
+
+        Highcharts.chart('chart_1', {
+
+            title: {
+                text: 'Beer on stock'
+            },
+            yAxis: {
+                title: {
+                    text: 'L'
+                }
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle'
+            },
+
+            plotOptions: {
+                series: {
+                    label: {
+                        connectorAllowed: false
+                    }
+                }
+            },
+
+            series: [{
+                name: 'IPA',
+                data: [43934, 52503, 57177, 69658, 97031, 87021, 91002, 30205]
+            }, {
+                name: 'Pale Ale',
+                data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+            }, {
+                name: 'Stout',
+                data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
+            }]
         });
     };
 

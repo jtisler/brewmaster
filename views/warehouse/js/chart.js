@@ -14,55 +14,42 @@ var feedingProtocol = function () {
     var handleChart1 = function () {
         if($('#chart1').length === 0) return;
         Highcharts.chart('chart1', {
-            chart: {
-                type: 'column'
-            },
+
             title: {
-                text: ''
-            },
-            xAxis: {
-                type: 'category'
+                text: 'Beer on stock'
             },
             yAxis: {
                 title: {
-                    text: '1000 L'
+                    text: 'L'
                 }
-
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
             },
             legend: {
-                enabled: false
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle'
             },
+
             plotOptions: {
                 series: {
-                    borderWidth: 0,
-                    dataLabels: {
-                        enabled: true,
-                        format: '{point.y:.1f}k L'
+                    label: {
+                        connectorAllowed: false
                     }
                 }
             },
 
-            tooltip: {
-                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}</b> L<br/>'
-            },
-
-            series: [
-                {
-                    name: "Browsers",
-                    colorByPoint: true,
-                    data: [
-                        {
-                            name: "IPA",
-                            y: 62.74,
-                        },
-                        {
-                            name: "Pale Ale",
-                            y: 10.57,
-                        }
-                    ]
-                }
-            ],
+            series: [{
+                name: 'IPA',
+                data: [43934, 52503, 57177, 69658, 97031, 87021, 91002, 30205]
+            }, {
+                name: 'Pale Ale',
+                data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+            }, {
+                name: 'Stout',
+                data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
+            }]
         });
     };
 
@@ -71,59 +58,42 @@ var feedingProtocol = function () {
         if($('#chart2').length === 0) return;
 
         Highcharts.chart('chart2', {
-            chart: {
-                type: 'column'
-            },
+
             title: {
-                text: ''
-            },
-            xAxis: {
-                type: 'category'
+                text: 'Ingredients on stock'
             },
             yAxis: {
                 title: {
                     text: 'kg'
                 }
-
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
             },
             legend: {
-                enabled: false
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle'
             },
+
             plotOptions: {
                 series: {
-                    borderWidth: 0,
-                    dataLabels: {
-                        enabled: true,
-                        format: '{point.y:.1f} kg'
+                    label: {
+                        connectorAllowed: false
                     }
                 }
             },
 
-            tooltip: {
-                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}</b> kg<br/>'
-            },
-
-            series: [
-                {
-                    name: "Browsers",
-                    colorByPoint: true,
-                    data: [
-                        {
-                            name: "Malt",
-                            y: 627.40,
-                        },
-                        {
-                            name: "Hops",
-                            y: 155.7,
-                        },
-                        {
-                            name: "Yeast",
-                            y: 432.9,
-                        }
-                    ]
-                }
-            ],
+            series: [{
+                name: 'Malt',
+                data: [125, 98, 77, 145, 201, 136, 178, 91]
+            }, {
+                name: 'Hops',
+                data: [98, 178, 125, 125, 77, 91, 125, 145]
+            }, {
+                name: 'Yeast',
+                data: [77, 98, 178, 201, 125, 144, 178, 178]
+            }]
         });
     };
 

@@ -1,37 +1,39 @@
-$(function() {
-	
-	$.get('dashboard/xhrGetListings', function(o) {
-		
-		for (var i = 0; i < o.length; i++)
-		{
-			$('#listInserts').append('<div>' + o[i].text + '<a class="del" rel="'+o[i].id+'" href="#">X</a></div>');
-		}
-		
-		$('.del').live('click', function() {
-			delItem = $(this);
-			var id = $(this).attr('rel');
-			
-			$.post('dashboard/xhrDeleteListing', {'id': id}, function(o) {
-				delItem.parent().remove();
-			}, 'json');
-			
-			return false;
-		});
-		
-	}, 'json');
-	
-	
-	
-	$('#randomInsert').submit(function() {
-		var url = $(this).attr('action');
-		var data = $(this).serialize();
-		
-		$.post(url, data, function(o) {
-			$('#listInserts').append('<div>' + o.text + '<a class="del" rel="'+ o.id +'" href="#">X</a></div>');		
-		}, 'json');
-		
-		
-		return false;
-	});
+$(function () {
+
+    var cal = $('#calendar').fullCalendar({
+        defaultView: 'agendaWeek',
+        displayEventTime: false,
+        weekends: false,
+        titleRangeSeparator: ' - ',
+        events: [
+             {
+                title: "Brew day 124",
+                start: "2019-08-13 08:00:00",
+                end: "2019-08-13 15:00:00",
+                description: 'IPA',
+                className: "m-fc-event--light m-fc-event--solid-warning",
+                allDay: false
+            },
+            {
+                title: "Customer delivery",
+                start: "2019-08-15 08:00:00",
+                end: "2019-08-15 10:00:00",
+                description: 'Ovis d.o.o',
+                className: "m-fc-event--light m-fc-event--solid-success",
+                allDay: false
+            },
+            {
+                title: "Supplier deliveries",
+                start: "2019-08-12 08:00:00",
+                end: "2019-08-12 11:00:00",
+                description: 'Brelex',
+                className: "m-fc-event--light m-fc-event--solid-brand",
+                allDay: false
+            }
+        ],
+        eventRender: function (e, t) {
+            t.hasClass("fc-day-grid-event") ? (t.data("content", e.description), t.data("placement", "top"), mApp.initPopover(t)) : t.hasClass("fc-time-grid-event") ? t.find(".fc-title").append('<div class="fc-description">' + e.description + "</div>") : 0 !== t.find(".fc-list-item-title").lenght && t.find(".fc-list-item-title").append('<div class="fc-description">' + e.description + "</div>")
+        }
+    });
 
 });

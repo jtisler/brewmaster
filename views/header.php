@@ -104,7 +104,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"
                                 m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true">
                                 <h3 class="m-subheader__title m-subheader__title--separator">
-                                    <?php echo isset($this->title) ? $this->title: ''; ?>
+                                    <?php echo isset($this->title) ? $this->title : ''; ?>
                                 </h3>
                             </li>
                         </ul>
@@ -248,6 +248,18 @@ License: You must have a valid license purchased only from themeforest(the above
             >
                 <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
                     <li class="m-menu__item " aria-haspopup="true">
+                        <a href="<?php echo URL; ?>dashboard" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-line-graph"></i>
+                            <span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Dashboard
+											</span>
+										</span>
+									</span>
+                        </a>
+                    </li>
+                    <li class="m-menu__item " aria-haspopup="true">
                         <a href="<?php echo URL; ?>customers" class="m-menu__link ">
                             <i class="m-menu__link-icon flaticon-users"></i>
                             <span class="m-menu__link-title">
@@ -260,28 +272,96 @@ License: You must have a valid license purchased only from themeforest(the above
                         </a>
                     </li>
                     <li class="m-menu__item " aria-haspopup="true">
-                        <a href="<?php echo URL; ?>" class="m-menu__link ">
-                            <i class="m-menu__link-icon flaticon-calendar-2"></i>
+                        <a href="<?php echo URL; ?>calendar" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-calendar-1"></i>
                             <span class="m-menu__link-title">
 										<span class="m-menu__link-wrap">
 											<span class="m-menu__link-text">
-												Fermenting calendar
+												Calendar
 											</span>
 										</span>
 									</span>
                         </a>
                     </li>
                     <li class="m-menu__item " aria-haspopup="true">
-                        <a href="<?php echo URL; ?>warehouse" class="m-menu__link ">
-                            <i class="m-menu__link-icon flaticon-business"></i>
+                        <a href="<?php echo URL; ?>" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-calendar-2"></i>
                             <span class="m-menu__link-title">
 										<span class="m-menu__link-wrap">
 											<span class="m-menu__link-text">
-												Warehouse
+												Production planning
 											</span>
 										</span>
 									</span>
                         </a>
+                    </li>
+                    <li class="m-menu__item " aria-haspopup="true">
+                        <a href="<?php echo URL; ?>/orders" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-file-1"></i>
+                            <span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Sales
+											</span>
+										</span>
+									</span>
+                        </a>
+                    </li>
+                    <li class="m-menu__item " aria-haspopup="true">
+                        <a href="<?php echo URL; ?>/procurement" class="m-menu__link ">
+                            <i class="m-menu__link-icon flaticon-file-1"></i>
+                            <span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Procurement
+											</span>
+										</span>
+									</span>
+                        </a>
+                    </li>
+                    <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                        <a href="javascript:;" class="m-menu__link m-menu__toggle">
+                            <i class="m-menu__link-icon flaticon-layers"></i>
+                            <span class="m-menu__link-text">
+										Warehouse
+									</span>
+                            <i class="m-menu__ver-arrow la la-angle-right"></i>
+                        </a>
+                        <div class="m-menu__submenu ">
+                            <span class="m-menu__arrow"></span>
+                            <ul class="m-menu__subnav">
+                                <li class="m-menu__item " aria-haspopup="true">
+                                    <a href="<?php echo URL; ?>warehouse" class="m-menu__link ">
+                                        <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                                            <span></span>
+                                        </i>
+                                        <span class="m-menu__link-text">
+													Dashboard
+												</span>
+                                    </a>
+                                </li>
+                                <li class="m-menu__item " aria-haspopup="true">
+                                    <a href="<?php echo URL; ?>warehouse/beer" class="m-menu__link ">
+                                        <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                                            <span></span>
+                                        </i>
+                                        <span class="m-menu__link-text">
+													Beer
+												</span>
+                                    </a>
+                                </li>
+                                <li class="m-menu__item " aria-haspopup="true">
+                                    <a href="<?php echo URL; ?>warehouse/ingredients" class="m-menu__link ">
+                                        <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                                            <span></span>
+                                        </i>
+                                        <span class="m-menu__link-text">
+													Ingredients
+												</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
