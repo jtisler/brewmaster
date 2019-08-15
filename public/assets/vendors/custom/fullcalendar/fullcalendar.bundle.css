@@ -11,6 +11,9 @@
 .fc-unthemed .fc-event-dot.fc-start.m-fc-event--light .fc-content::before, .fc-unthemed .fc-event.fc-start.m-fc-event--light .fc-content::before{
     display: none;
 }
+.fc-unthemed .fc-event-dot.fc-start .fc-content::before, .fc-unthemed .fc-event.fc-start .fc-content::before {
+    display: none;
+}
 
 .m-widget17 .m-widget17__stats .m-widget17__items.m-widget17__items-col1 {
 

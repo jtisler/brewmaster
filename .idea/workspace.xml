@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcfd6d7c-bd44-4096-9445-814150afdc51" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/orders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/procurement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/calendar/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/calendar/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/orders/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/orders/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/procurement/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/procurement/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/warehouse/beer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/warehouse/equipment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/warehouse/ingredients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/warehouse/js/chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/warehouse.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/warehouse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dashboard_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/demo/default/base/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/demo/default/base/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/customers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/customers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dashboard/js/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard/js/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/warehouse/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/warehouse/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/procurement/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/procurement/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,29 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/dashboard/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="251" column="75" selection-start-line="251" selection-start-column="75" selection-end-line="251" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/calendar/js/index.js">
+        <entry file="file://$PROJECT_DIR$/views/index/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="60" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="60" selection-end-column="6" />
+            <state relative-caret-position="442">
+              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/procurement/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1744">
+              <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -69,35 +46,8 @@
       <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/dashboard/js/default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fullcalendar.bundle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/calendar/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="54" column="10" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -137,11 +87,9 @@
         <option value="$PROJECT_DIR$/controllers/customers.php" />
         <option value="$PROJECT_DIR$/controllers/index.php" />
         <option value="$PROJECT_DIR$/views/customers/index.php" />
-        <option value="$PROJECT_DIR$/views/index/js/index.js" />
         <option value="$PROJECT_DIR$/views/warehouse/equipment.php" />
         <option value="$PROJECT_DIR$/views/warehouse/js/index.js" />
         <option value="$PROJECT_DIR$/public/assets/demo/default/base/menu.js" />
-        <option value="$PROJECT_DIR$/views/index/index.php" />
         <option value="$PROJECT_DIR$/controllers/warehouse.php" />
         <option value="$PROJECT_DIR$/views/warehouse/beer.php" />
         <option value="$PROJECT_DIR$/views/warehouse/ingredients.php" />
@@ -149,7 +97,6 @@
         <option value="$PROJECT_DIR$/views/orders/js/index.js" />
         <option value="$PROJECT_DIR$/controllers/procurement.php" />
         <option value="$PROJECT_DIR$/views/orders/index.php" />
-        <option value="$PROJECT_DIR$/views/procurement/index.php" />
         <option value="$PROJECT_DIR$/controllers/orders.php" />
         <option value="$PROJECT_DIR$/controllers/calendar.php" />
         <option value="$PROJECT_DIR$/views/home/index.php" />
@@ -157,9 +104,12 @@
         <option value="$PROJECT_DIR$/views/calendar/js/index.js" />
         <option value="$PROJECT_DIR$/views/dashboard/js/default.js" />
         <option value="$PROJECT_DIR$/controllers/dashboard.php" />
-        <option value="$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" />
         <option value="$PROJECT_DIR$/views/dashboard/index.php" />
         <option value="$PROJECT_DIR$/views/header.php" />
+        <option value="$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" />
+        <option value="$PROJECT_DIR$/views/index/js/index.js" />
+        <option value="$PROJECT_DIR$/views/index/index.php" />
+        <option value="$PROJECT_DIR$/views/procurement/index.php" />
       </list>
     </option>
   </component>
@@ -468,12 +418,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565778438039</updated>
-      <workItem from="1565778439403" duration="11779000" />
+      <workItem from="1565778439403" duration="12495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11779000" />
+    <option name="totallyTimeSpent" value="12495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -610,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/warehouse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -695,9 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -705,24 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/procurement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/procurement/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -740,24 +666,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/dashboard/js/default.js">
+    <entry file="file://$PROJECT_DIR$/views/calendar/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="650">
+          <caret line="54" column="10" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="251" column="75" selection-start-line="251" selection-start-column="75" selection-end-line="251" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/calendar/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="373">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -768,10 +694,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.php">
+    <entry file="file://$PROJECT_DIR$/views/home/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="251" column="75" selection-start-line="251" selection-start-column="75" selection-end-line="251" selection-end-column="75" />
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/procurement/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1744">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
         </state>
       </provider>
     </entry>

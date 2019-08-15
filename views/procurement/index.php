@@ -81,7 +81,135 @@
                         <td>Hmezad</td>
                         <td>01.06.2019</td>
                         <td>01.06.2019</td>
-                        <td><span class="btn btn-sm btn-warning">Malt</span> <span class="btn btn-sm btn-success">Hops</span> <span class="btn btn-sm btn-info">Yeast</span></td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span> <span
+                                    class="btn btn-sm btn-success">Hops</span> <span
+                                    class="btn btn-sm btn-info">Yeast</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Viking</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Weyerman</td>
+                        <td>12.08.2019</td>
+                        <td>12.08.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>18900,00 €</td>
+                        <td>2500 kg</td>
+                        <td><span class="btn btn-info btn-sm">Delivery</span></td>
+                        <td><span class="btn btn-sm btn-success">Confirmed</span></td>
+                    </tr>
+                    <tr>
+                        <td>Brelex</td>
+                        <td>31.07.2019</td>
+                        <td>31.07.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>382,00 €</td>
+                        <td>500 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-info">Delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span> <span
+                                    class="btn btn-sm btn-success">Hops</span> <span
+                                    class="btn btn-sm btn-info">Yeast</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>12.08.2019</td>
+                        <td>12.08.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>18900,00 €</td>
+                        <td>2500 kg</td>
+                        <td><span class="btn btn-info btn-sm">Delivery</span></td>
+                        <td><span class="btn btn-sm btn-success">Confirmed</span></td>
+                    </tr>
+                    <tr>
+                        <td>Brelex</td>
+                        <td>31.07.2019</td>
+                        <td>31.07.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>382,00 €</td>
+                        <td>500 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-info">Delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span> <span
+                                    class="btn btn-sm btn-success">Hops</span> <span
+                                    class="btn btn-sm btn-info">Yeast</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Viking</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>1360,00 €</td>
+                        <td>100 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-brand">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Weyerman</td>
+                        <td>12.08.2019</td>
+                        <td>12.08.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>18900,00 €</td>
+                        <td>2500 kg</td>
+                        <td><span class="btn btn-info btn-sm">Delivery</span></td>
+                        <td><span class="btn btn-sm btn-success">Confirmed</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>31.07.2019</td>
+                        <td>31.07.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span></td>
+                        <td>382,00 €</td>
+                        <td>500 kg</td>
+                        <td><span class="btn btn-brand btn-sm">Pickup</span></td>
+                        <td><span class="btn btn-sm btn-info">Delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>Hmezad</td>
+                        <td>01.06.2019</td>
+                        <td>01.06.2019</td>
+                        <td><span class="btn btn-sm btn-warning">Malt</span> <span
+                                    class="btn btn-sm btn-success">Hops</span> <span
+                                    class="btn btn-sm btn-info">Yeast</span></td>
                         <td>1360,00 €</td>
                         <td>100 kg</td>
                         <td><span class="btn btn-brand btn-sm">Pickup</span></td>

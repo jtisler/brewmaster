@@ -9,11 +9,18 @@ var feedingProtocol = function () {
 
     var handleCalendar = function () {
         cal = $('#m_calendar').fullCalendar({
-            defaultView: 'timelineMonth',
+            defaultView: 'timelineThreeMonths',
             header: {
                 left: 'prev,next',
                 center: 'title',
                 right: 'timelineMonth'
+            },
+            titleRangeSeparator: ' - ',
+            views: {
+                timelineThreeMonths: {
+                    type: 'timeline',
+                    duration: { months: 3 }
+                }
             },
             allDaySlot: false,
             slotEventOverlap: false,
@@ -25,6 +32,7 @@ var feedingProtocol = function () {
             resourceLabelText: 'Fermenters',
             eventOverlap: false,
             slotLabelFormat: [
+                'MMMM',
                 'dd',
                 "DD"
             ],
@@ -39,6 +47,15 @@ var feedingProtocol = function () {
                 }, {
                     id: 3,
                     title: 'Fermenter 3 (1000L)'
+                }, {
+                    id: 4,
+                    title: 'Fermenter 4 (1000L)'
+                }, {
+                    id: 5,
+                    title: 'Fermenter 5 (500L)'
+                }, {
+                    id: 6,
+                    title: 'Fermenter 6 (1500L)'
                 }
             ],
             events: [
@@ -71,15 +88,30 @@ var feedingProtocol = function () {
                     color: '#00c5dc',
                     textColor: 'white'
                 },
+                {
+                    resourceId: 6,
+                    title: "Stout",
+                    start: "2019-08-17",
+                    end: "2019-09-15",
+                    className: 'm-fc-event--light m-fc-event--solid-warning',
+                    textColor: 'white'
+                },
             ]
         });
 
         cal2 = $('#m_calendar_2').fullCalendar({
-            defaultView: 'timelineMonth',
+            defaultView: 'timelineThreeMonths',
             header: {
                 left: 'prev,next',
                 center: 'title',
                 right: 'timelineMonth'
+            },
+            titleRangeSeparator: ' - ',
+            views: {
+                timelineThreeMonths: {
+                    type: 'timeline',
+                    duration: { months: 3 }
+                }
             },
             allDaySlot: false,
             slotEventOverlap: false,
@@ -91,6 +123,7 @@ var feedingProtocol = function () {
             resourceLabelText: 'Brewing systems',
             eventOverlap: false,
             slotLabelFormat: [
+                'MMMM',
                 'dd',
                 "DD"
             ],
